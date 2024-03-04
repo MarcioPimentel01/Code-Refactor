@@ -196,7 +196,7 @@ Please see below the changes made to the code to adhere to the accessibility con
     </footer>
 ```
 
-* The button style was added to the CSS stylesheet.
+* The `button` style was added to the CSS stylesheet.
 
 ```CSS
 button{
