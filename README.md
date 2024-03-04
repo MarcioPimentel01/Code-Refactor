@@ -1,17 +1,19 @@
 # Code Refactor Starter Code
 
 
-## Readme.md file main porpuse
+## Readme.md File Main Purpose.
 
 This document contains information related to the Week One challenge for HTML, CSS, and Git: Code Refactor from the UCF Coding Bootcamp.
-> **Important**: All the changes made to this code follow the amount of knowledge learned throughout the first part of the program. New tools and technologies may exist; however, they are not part of this segment of the program.
 
-### The Challenge
+**Important:** All the changes made to this code follow the knowledge gained throughout the first part of the program. New tools and technologies may exist; however, they are not part of this program segment.
 
-We'll be going to work with a commoly used software development format know as **agile project management** to handle this task.
+## The Challenge
 
-### Refactor Changes
-The refactor changes aim for web **accessibility**, ensuring that people with **disabilities** can access website information using assistive technologies like video captions, screen readers, and braille keyboards.
+We'll be working with a commonly used software development format known as agile project management to handle this task.
+
+## Refactor Changes
+
+The refactor changes aim for web accessibility, ensuring that people with disabilities can access website information using assistive technologies like video captions, screen readers, and braille keyboards.
 
 Please see below the changes made to the code to adhere to the accessibility concept.
 
@@ -29,7 +31,6 @@ Please see below the changes made to the code to adhere to the accessibility con
 <!-- In this part of the code, I replaced <div class="header"> with the semantic element <header>. -->
 <!-- Additionally, I inserted the <nav> element between the navigation links for 'Search Engine Optimization', 'Online Reputation Management', and 'Social Media Marketing'. -->
 <!-- The <nav> semantic element aids accessibility when using assistive technologies like screen readers. -->
-<!-- In summary, <nav> promotes a better semantic structure in HTML. -->
 <header class="header">
     <h1>Hori<span class="seo">seo</span>n</h1>
     <nav>
