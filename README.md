@@ -48,7 +48,7 @@ Please see below the changes made to the code to adhere to the accessibility con
     </nav>
 </header>
 ```
-* The CSS behavier for the semantic element `<header>` had to be changed. Please see below the CSS code.
+* CSS Behavior for the semantic element <header> had to be changed. Please see below the CSS code.
 * I also chaged the color for the class `.header h1 seo` to a darker color to better display the major segment of the business.
 * All classes that conteined the `div` as identifier was changed to `nav`.
 
@@ -91,12 +91,12 @@ Please see below the changes made to the code to adhere to the accessibility con
     margin-left: 25px;
 }
 ```
- * For the following block the `<section>` semantic element replaced the `<div>` HTML element.
+ * For the following block, the <section> semantic element replaced the <div> HTML element.
 
 ```html
  <section class="hero"></section>
 ```
-* For the following block the `<section>` semantic element replaced the `<div>` HTML element. There was also the inclusion of `<figure>` and `<figcaption>` to the elements `<img>` and `<h2>`.
+* For the following block, the <section> semantic element replaced the <div> HTML element. There was also the inclusion of <figure> and <figcaption> to the elements <img> and <h2>. alt="" attributes were added to all pictures.
 * `alt=""` attributes were added to all pictures.
  ```html
 <section class="content">
@@ -134,7 +134,7 @@ Please see below the changes made to the code to adhere to the accessibility con
                     </p>
             </section>
 ```
-* In order to use the `alt=""` attribute and encapsulate the `<img>` and the `<h3>` elements, using `<figure>` and `<figcaption>`, the position of `<img>` and `<h3>` was inverted.
+* In order to use the alt="" attribute and encapsulate the <img> and the <h3> elements using <figure> and <figcaption>, the position of <img> and <h3> was inverted.
 
 ```html
     <!-- Since the challenge states that at least 90% of the Mock-Up must be the same, and I have 10% to make changes, I decided to alter
@@ -196,7 +196,7 @@ Please see below the changes made to the code to adhere to the accessibility con
     </footer>
 ```
 
-* the button style was added to the css stylesheet
+* The button style was added to the CSS stylesheet.
 
 ```CSS
 button{
