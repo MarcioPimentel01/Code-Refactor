@@ -17,7 +17,10 @@ Please see below the changes made to the code to adhere to the accessibility con
 
 * Added the name of the company to the <title> element
    `<title>Horiseon website</title>`
-* added favicon `<link rel="icon" type="image/ico" href="Module01-Challenge01/assets/images/favicon.ico">`
+* added favicon 
+```html
+ <link rel="icon" type="image/ico" href="./assets/images/favicon.ico">
+```
 * Header element changed to `<div>` to `<nav>`
 
 ```html
@@ -25,7 +28,6 @@ Please see below the changes made to the code to adhere to the accessibility con
 <!-- Additionally, I inserted the <nav> element between the navigation links for 'Search Engine Optimization', 'Online Reputation Management', and 'Social Media Marketing'. -->
 <!-- The <nav> semantic element aids accessibility when using assistive technologies like screen readers. -->
 <!-- In summary, <nav> promotes a better semantic structure in HTML. -->
-```html
 <header class="header">
     <h1>Hori<span class="seo">seo</span>n</h1>
     <nav>
@@ -85,3 +87,47 @@ Please see below the changes made to the code to adhere to the accessibility con
     display: inline-block;
     margin-left: 25px;
 }
+```
+ * use of `<section>` instead `<div>`.
+
+```html
+ <section class="hero"></section>
+```
+* use of `<section>` instead `<div>`, inclusion of `<figure>` and `<figcaption>` to the elements `<img>` and `<h2>`
+ ```html
+<section class="content">
+            <section id="search-engine-optimization" class="search-engine-optimization">
+                <figure>
+                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="SEO strategy and tools for effective Search Engine Optimization">
+                    <figcaption>
+                        <h2>Search Engine Optimization</h2>
+                    </figcaption>
+                </figure>
+                    <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                    </p>
+            </section>
+            <section id="online-reputation-management" class="online-reputation-management">
+                <figure>
+                <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Monitoring and managing online reputation to build a positive brand image">
+                    <figcaption>
+                        <h2>Online Reputation Management</h2>
+                    </figcaption>
+                </figure>
+                    <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                    </p>
+            </section>
+            <section id="social-media-marketing" class="social-media-marketing">
+                <figure>
+                <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Marketing: Utilizing platforms to enhance brand visibility and engage with the audience">
+                    <figcaption>
+                        <h2>Social Media Marketing</h2>
+                    </figcaption>
+                </figure>
+                    <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                    </p>
+            </section>
+```
+
