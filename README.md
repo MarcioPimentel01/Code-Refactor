@@ -90,12 +90,12 @@ Please see below the changes made to the code to adhere to the accessibility con
     margin-left: 25px;
 }
 ```
- * use of `<section>` instead `<div>`.
+ * For the following block the `<section>` semantic element replaced the `<div>` HTML element.
 
 ```html
  <section class="hero"></section>
 ```
-* use of `<section>` instead `<div>`, inclusion of `<figure>` and `<figcaption>` to the elements `<img>` and `<h2>`.
+* For the following block the `<section>` semantic element replaced the `<div>` HTML element. There was also the inclusion of `<figure>` and `<figcaption>` to the elements `<img>` and `<h2>`.
 * `alt=""` attributes were added to all pictures.
  ```html
 <section class="content">
