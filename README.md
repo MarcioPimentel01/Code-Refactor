@@ -16,12 +16,14 @@ The refactor changes aim for web **accessibility**, ensuring that people with **
 Please see below the changes made to the code to adhere to the accessibility concept.
 
 * Added the name of the company to the <title> element
-   `<title>Horiseon website</title>`
+```html
+  <title>Horiseon website</title>`
+```
 * added favicon 
 ```html
  <link rel="icon" type="image/ico" href="./assets/images/favicon.ico">
 ```
-* Header element changed to `<div>` to `<nav>`
+* Header element changed from `<div>` to `<nav>`
 
 ```html
 <!-- In this part of the code, I replaced <div class="header"> with the semantic element <header>. -->
@@ -93,7 +95,8 @@ Please see below the changes made to the code to adhere to the accessibility con
 ```html
  <section class="hero"></section>
 ```
-* use of `<section>` instead `<div>`, inclusion of `<figure>` and `<figcaption>` to the elements `<img>` and `<h2>`
+* use of `<section>` instead `<div>`, inclusion of `<figure>` and `<figcaption>` to the elements `<img>` and `<h2>`.
+* `alt=""` attributes were added to all pictures.
  ```html
 <section class="content">
             <section id="search-engine-optimization" class="search-engine-optimization">
