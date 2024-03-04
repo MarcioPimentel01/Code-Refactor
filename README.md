@@ -133,4 +133,78 @@ Please see below the changes made to the code to adhere to the accessibility con
                     </p>
             </section>
 ```
+* In order to use the `alt=""` attribute and encapsulate the `<img>` and the `<h3>` elements, using `<figure>` and `<figcaption>`, the position of `<img>` and `<h3>` was inverted.
 
+```html
+    <!-- Since the challenge states that at least 90% of the Mock-Up must be the same, and I have 10% to make changes, I decided to alter
+         the order of the <img> and the <h3> so I could use <figure> and <figcaption> to semantically help HTML in accessibility enhancement.-->
+    <!-- alt="" attribute was used in all images. -->
+   
+    <Section class="benefits">
+        <section class="benefit-lead">
+            <figure>
+                <img src="./assets/images/lead-generation.png" alt="Illustration depicting the concept of Lead Generation">
+                <figcaption>
+                    <h3>Lead Generation</h3>
+                </figcaption>
+            </figure>
+                <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                </p>
+        </section>
+        <section class="benefit-brand">
+            <figure>
+                <img src="./assets/images/brand-awareness.png" alt="Illustration representing the concept of Brand Awareness">
+                <figcaption>
+                    <h3>Brand Awareness</h3>
+                </figcaption>
+            </figure>
+                <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                </p>
+        </section>
+        <section class="benefit-cost">
+            <figure>
+                <img src="./assets/images/cost-management.png" alt="Illustration representing the concept of Cost Management">
+                <figcaption>
+                    <h3>Cost Management</h3>
+                </figcaption>
+            </figure>
+                <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                </p>
+        </section>
+    </Section>
+```
+* I took the liberty to add a button to redirect the user from the footer to the index.html page, giving the impression that is going to the header.
+* Initially, there was a script to redirect to the header, I removed because we are not working with scripts and I was affraid to loose points on my grade because of that.
+
+```html
+<!-- The only reason that I added the element <nav> here was because I wanted to add a button to send me back to the top of the page. -->
+    <footer class="footer">
+        <nav>
+            <!-- add a button here - go to the top -->
+            <a href="index.html">
+                <button role="button">Back to Top</button>
+            </a>
+            <h2>Made with ❤️️ by Horiseon</h2>
+                <p>
+                &copy; 2023 Horiseon Social Solution Services, Inc.
+                </p>
+        </nav>
+    </footer>
+```
+
+* the button style was added to the css stylesheet
+
+```CSS
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #0072bb;
+    margin-bottom: 10px;
+}
+```
