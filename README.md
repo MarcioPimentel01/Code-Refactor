@@ -177,7 +177,3 @@ Please see below the changes made to the code to adhere to the accessibility con
         </section>
     </Section>
 ```
-* I took the liberty to add a button to redirect the user from the footer to the index.html page, giving the impression that is going to the header.
-* Initially, there was a script to redirect to the header, I removed because we are not working with scripts and I was affraid to loose points on my grade because of that.
-
-```html
