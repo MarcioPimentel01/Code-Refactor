@@ -181,31 +181,3 @@ Please see below the changes made to the code to adhere to the accessibility con
 * Initially, there was a script to redirect to the header, I removed because we are not working with scripts and I was affraid to loose points on my grade because of that.
 
 ```html
-<!-- The only reason that I added the element <nav> here was because I wanted to add a button to send me back to the top of the page. -->
-    <footer class="footer">
-        <nav>
-            <!-- add a button here - go to the top -->
-            <a href="index.html">
-                <button role="button">Back to Top</button>
-            </a>
-            <h2>Made with ❤️️ by Horiseon</h2>
-                <p>
-                &copy; 2023 Horiseon Social Solution Services, Inc.
-                </p>
-        </nav>
-    </footer>
-```
-
-* The `button` style was added to the CSS stylesheet.
-
-```CSS
-button{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #0072bb;
-    margin-bottom: 10px;
-}
-```
